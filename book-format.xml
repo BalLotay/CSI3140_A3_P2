@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lib:library xmlns:lib="http://localhost/library">
+    <lib:book>
+        <lib:title>Neuromancer</lib:title>
+        <lib:author>William Gibson</lib:author>
+        <lib:genre>Sci-Fi</lib:genre>
+        <lib:year>1984</lib:year>
+        <lib:user>dorsa</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>Sapiens</lib:title>
+        <lib:author>Yuval Noah Harari</lib:author>
+        <lib:genre>History</lib:genre>
+        <lib:year>2011</lib:year>
+        <lib:user>dorsa</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>1984</lib:title>
+        <lib:author>George Orwell</lib:author>
+        <lib:genre>Dystopian</lib:genre>
+        <lib:year>1949</lib:year>
+        <lib:user>dorsa</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>Anne Sherley</lib:title>
+        <lib:author>Lucy Maud</lib:author>
+        <lib:genre>Fiction</lib:genre>
+        <lib:year>1908</lib:year>
+        <lib:user>dorsa</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>The Martian</lib:title>
+        <lib:author>Andy Weir</lib:author>
+        <lib:genre>Science Fiction</lib:genre>
+        <lib:year>2014</lib:year>
+        <lib:user>dorsa</lib:user>
+    </lib:book>
+</lib:library>

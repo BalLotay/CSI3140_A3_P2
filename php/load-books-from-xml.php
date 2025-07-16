@@ -1,9 +1,17 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "www-structure-books");
+$conn = new mysqli("localhost", "root", "", "library");
 
-$xml = simplexml_load_file("book-format.xml");
+// Register the namespace with a prefix (as used in the XML)
+$xml = simplexml_load_file("../book-format.xml");
+$xml->registerXPathNamespace('lib', 'http://localhost/library');
 
-foreach ($xml->book as $b) {
+// Use XPath to get all lib:book elements
+$books = $xml->xpath('//lib:book');
+
+// print_r($books);
+foreach ($books as $book) {
+    $b = $book->children('http://localhost/library');
+
     $title = $b->title;
     $author = $b->author;
     $genre = $b->genre;

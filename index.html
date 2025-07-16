@@ -4,28 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Lookup</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Book Lookup</h1>
     <h2>Search</h2>
-    <form action="php/search-books.php" id="search-form">
-        <input type="text" id="search-title-or-author" name="search" placeholder="Search by title or author" required>
+    <form id="search-form">
+        <input type="text" id="search-title-or-author" name="search" placeholder="Search by title or author">
         <select name="genre" id="search-genre">
-            <option value="">All</option>
+            <option value="">All Genres</option>
             <option value="Fiction">Fiction</option>
             <option value="Sci-Fi">Sci-Fi</option>
             <option value="History">History</option>
         </select>
         <select name="user" id="search-user">
-            <option value="">All</option>
-            <option value="dorsa">dorsa</option>
-            <option value="john">john</option>
-            <option value="cena">cena</option>
+            <option value="">All Users</option>
         </select>
         <button id="search-button">Search</button>
     </form>
     <h2>Add a New Book</h2>
-    <form action="php/add-book.php" id="add-book-form">
+    <form id="add-book-form">
         <input type="text" id="add-title" name="title" placeholder="Title" required>
         <input type="text" id="add-author" name="author" placeholder="Author" required>
         <select name="genre" id="add-genre" required>
@@ -37,12 +35,13 @@
         <input type="number" id="add-year" name="year" placeholder="Year" min="0" required>
         <select name="user" id="add-user" required>
             <option value="">User</option>
-            <option value="dorsa">dorsa</option>
-            <option value="john">john</option>
-            <option value="cena">cena</option>
         </select>
         <button type="submit" id="add-book-button">Add Book</button>
     </form>
     <h2>Results</h2>
+    <section id="results-section">
+        <p id="no-results">No results found.</p>
+        <ul id="results-list"></ul>
+    </section>
 </body>
 </html>

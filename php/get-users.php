@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$conn = new mysqli("localhost", "root", "", "www-structure-books");
+$conn = new mysqli("localhost", "root", "", "library");
 
 if ($conn->connect_error) {
     http_response_code(500);

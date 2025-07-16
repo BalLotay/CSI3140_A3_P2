@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$conn = new mysqli("localhost", "root", "", "www-structure-books");
+$conn = new mysqli("localhost", "root", "", "library");
 
 $title = $_POST['title'];
 $author = $_POST['author'];

@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$conn = new mysqli("localhost", "root", "", "www-structure-books");
+$conn = new mysqli("localhost", "root", "", "library");
 
 $query = isset($_GET['query']) ? $_GET['query'] : '';
 $genre = isset($_GET['genre']) ? $_GET['genre'] : 'all';

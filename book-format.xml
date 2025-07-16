@@ -17,7 +17,7 @@
     <lib:book>
         <lib:title>1984</lib:title>
         <lib:author>George Orwell</lib:author>
-        <lib:genre>Dystopian</lib:genre>
+        <lib:genre>Fiction</lib:genre>
         <lib:year>1949</lib:year>
         <lib:user>dorsa</lib:user>
     </lib:book>
@@ -31,8 +31,43 @@
     <lib:book>
         <lib:title>The Martian</lib:title>
         <lib:author>Andy Weir</lib:author>
-        <lib:genre>Science Fiction</lib:genre>
+        <lib:genre>Sci-Fi</lib:genre>
         <lib:year>2014</lib:year>
         <lib:user>dorsa</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>To Kill a Mockingbird</lib:title>
+        <lib:author>Harper Lee</lib:author>
+        <lib:genre>Classic</lib:genre>
+        <lib:year>1960</lib:year>
+        <lib:user>john</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>The Hobbit</lib:title>
+        <lib:author>J.R.R. Tolkien</lib:author>
+        <lib:genre>Fantasy</lib:genre>
+        <lib:year>1937</lib:year>
+        <lib:user>cena</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>Brave New World</lib:title>
+        <lib:author>Aldous Huxley</lib:author>
+        <lib:genre>Sci-Fi</lib:genre>
+        <lib:year>1932</lib:year>
+        <lib:user>guy</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>The Catcher in the Rye</lib:title>
+        <lib:author>J.D. Salinger</lib:author>
+        <lib:genre>Fiction</lib:genre>
+        <lib:year>1951</lib:year>
+        <lib:user>john</lib:user>
+    </lib:book>
+    <lib:book>
+        <lib:title>Ender's Game</lib:title>
+        <lib:author>Orson Scott Card</lib:author>
+        <lib:genre>Science Fiction</lib:genre>
+        <lib:year>1985</lib:year>
+        <lib:user>cena</lib:user>
     </lib:book>
 </lib:library>

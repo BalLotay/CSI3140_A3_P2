@@ -44,18 +44,19 @@ CREATE TABLE `books` (
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `username` varchar(100) NOT NULL
+  `username` varchar(100) NOT NULL,
+  `email` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`) VALUES
-(1, 'dorsa'),
-(2, 'john'),
-(3, 'cena'),
-(4, 'guy');
+INSERT INTO `users` (`id`, `username`, `email`) VALUES
+(1, 'dorsa', 'dorsa@gmail.com'),
+(2, 'john', 'john@gmail.com'),
+(3, 'cena', 'cena@gmail.com'),
+(4, 'guy', 'guy@gmail.com');
 
 --
 -- Indexes for dumped tables

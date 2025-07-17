@@ -38,14 +38,14 @@
     <lib:book>
         <lib:title>To Kill a Mockingbird</lib:title>
         <lib:author>Harper Lee</lib:author>
-        <lib:genre>Classic</lib:genre>
+        <lib:genre>Fiction</lib:genre>
         <lib:year>1960</lib:year>
         <lib:user>john</lib:user>
     </lib:book>
     <lib:book>
         <lib:title>The Hobbit</lib:title>
         <lib:author>J.R.R. Tolkien</lib:author>
-        <lib:genre>Fantasy</lib:genre>
+        <lib:genre>Fiction</lib:genre>
         <lib:year>1937</lib:year>
         <lib:user>cena</lib:user>
     </lib:book>
@@ -66,7 +66,7 @@
     <lib:book>
         <lib:title>Ender's Game</lib:title>
         <lib:author>Orson Scott Card</lib:author>
-        <lib:genre>Science Fiction</lib:genre>
+        <lib:genre>Sci-Fi</lib:genre>
         <lib:year>1985</lib:year>
         <lib:user>cena</lib:user>
     </lib:book>
